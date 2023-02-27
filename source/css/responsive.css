@@ -253,6 +253,16 @@
     }
     /* blog & testimonial area end */
 
+    /* brand area start */
+    .single-brand {
+        text-align: center;
+        margin-top: 17px;
+    }
+    .single-brand a {
+        display: inline-block;
+    }
+    /* brand area end */
+
     /* footer area start */
     .col-3 {
         width: 100%;

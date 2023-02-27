@@ -97,7 +97,8 @@ $(document).ready(function(){
         navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
         responsive:{
             0:{
-                items:1
+                items:1,
+                autoplay: true
             },
             768:{
                 items:3
