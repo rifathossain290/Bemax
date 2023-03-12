@@ -226,6 +226,13 @@
     .single-feature .features-icon h3 {
         font-size: 14px;
     }
+    .feature-content:hover {
+        text-align: center;
+    }
+    .single-feature p {
+        display: none;
+    }
+
     /* features area end */
 
     /* video area start */
@@ -287,94 +294,12 @@
         width: 450px;
     }
 
-    /* mobile navbar style start */
-    .mobile-menu-icons {
-        display: block;
-        margin-left: 20px;
-    }
-    .menu ul.nav-list {
-        position: absolute;
-        z-index: 5;
-        background: #fff;
-        top: 120px;
-        left: 0;
-        right: 0;
-        display: none;
-    }
-    .menu ul li {
-        display: block;
-        margin-left: 0;
-        text-align: center;
-    }
-    .menu ul li a {
-        padding: 20px 0;
-    }
-    /* submenu under navbar */
-    .menu ul li ul.submenu {
-        position: relative;
-        width: 100%;
-        height: 0;
-    }
-    .menu ul li:hover > ul.submenu {
-        height: 100%;
-    }
-    .menu ul li ul.submenu li:hover > a {
-        padding-left: 50px;
-        font-weight: 700;
-        font-size: 15px;
-    }
-    /* submenu under submenu */
-    .menu ul li ul.submenu li ul.submenu {
-        right: 0;
-        left: 0;
-    }
-    .menu ul li ul.submenu li:hover > ul.submenu {
-        background: #222;
-    }
-
-    /* mobile navbar style end */
-
-    /* cta area start */
-    .col-8 {
-        width: 100%;
-    }
-    .cta-area .cta-text {
-        margin-bottom: 20px;
-    }
-    .col-4 {
-        width: 100%;
-    }
-    .cta-area .cta-button {
-        float: left;
-    }
-    /* cta area end */
-
-    /* features area start */
-    .single-feature {
-        margin-bottom: 30px;
-    }
+    /* feature area start */
     .single-feature .feature-content {
         transform: translateY(80%);
     }
-    /* features area end */
-
-    /* video area start */
-    .col-6 {
-        width: 100%;
-    }
-    .video {
-        margin-bottom: 30px;
-    }
-    .video img {
-        width: 100%;
-    }
-    /* video area end */
-
-    /* blog & testimonial area start*/
-    .blog-wrapper {
-        margin-bottom: 30px;
-    }
-    /* blog & testimonial area end */
+    /* feature area end */
+    
 
     /* footer area start */
     .col-3 {
